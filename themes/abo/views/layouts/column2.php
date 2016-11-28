@@ -11,11 +11,22 @@
 			'items'=>array(
 				array('label'=>'<i class="icon icon-home"></i>  Inicio', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'')),
         array('label'=>'<i class="icon icon-camera"></i>  Empleados', 'url'=>array('/empleados/index'),'itemOptions'=>array('class'=>'')),
-        
-				// Include the operations menu
-				array('label'=>'OPERACIONES','items'=>$this->menu),
 			),
 			));?>
+<div class="page-header"> </div>
+
+
+<?php $this->widget('zii.widgets.CMenu', array(
+      /*'type'=>'list',*/
+      'encodeLabel'=>false,
+      'items'=>array(
+        // Include the operations menu
+        array('label'=>' ','items'=>$this->menu),
+
+
+      ),
+      ));?>
+      
 		</div>
         <br>
         

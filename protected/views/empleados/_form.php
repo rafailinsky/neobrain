@@ -31,39 +31,40 @@
       <tbody>
         <tr>
           	<td><?php echo $form->labelEx($model,'RFCtxt_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'RFCtxt_Empleados',array('placeholder'=>'RFC DE EMPLEADO','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'RFCtxt_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'RFC DE EMPLEADO','size'=>15,'maxlength'=>15)); ?></td>
          </tr>
          <tr>
           	<td><?php echo $form->labelEx($model,'IMSStxt_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'IMSStxt_Empleados',array('placeholder'=>'NUMERO IMSS EMPLEADO','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'IMSStxt_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'NUMERO IMSS EMPLEADO','size'=>15,'maxlength'=>15)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'CURPtxt_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'CURPtxt_Empleados',array('placeholder'=>'CURP DE EMPLEADO','size'=>15,'maxlength'=>15)); ?> </td>
-        </tr>
-        <tr>
-          	<td><?php echo $form->labelEx($model,'NUM_INFONAVIT_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'NUM_INFONAVIT_Empleados',array('placeholder'=>'INFONAVIT DE EMPLEADO','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'CURPtxt_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'CURP DE EMPLEADO','size'=>15,'maxlength'=>15)); ?> </td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Nombres_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Nombres_Empleados',array('placeholder'=>'NOMBRE EMPLEADO','size'=>25,'maxlength'=>25)); ?></td>
+            <td><?php echo $form->textField($model,'Nombres_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'NOMBRE EMPLEADO','size'=>25,'maxlength'=>25)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Apellido_Paterno_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Apellido_Paterno_Empleados',array('placeholder'=>'APELLIDO PATERNO','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'Apellido_Paterno_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'APELLIDO PATERNO','size'=>15,'maxlength'=>15)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Apellido_Materno_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Apellido_Materno_Empleados',array('placeholder'=>'APELLIDO MATERNO','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'Apellido_Materno_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'APELLIDO MATERNO','size'=>15,'maxlength'=>15)); ?></td>
+        </tr>
+        
+        <tr>
+          	<td><?php echo $form->labelEx($model,'Telefono_Empleados'); ?></td>
+            <td><?php echo $form->textField($model,'Telefono_Empleados',array('placeholder'=>'TELEFONO ','size'=>15,'maxlength'=>15)); ?></td>
+        </tr>
+         <tr>
+            <td><?php echo $form->labelEx($model,'Correo_Empleados'); ?></td>
+            <td><?php echo $form->textField($model,'Correo_Empleados',array('placeholder'=>'CORREO ELECTRONICO ','size'=>15,'maxlength'=>15)); ?></td>
         </tr>
         <tr>
-          	<td><?php echo $form->labelEx($model,'Genero_Empleados'); ?></td>
-            <td><?php echo $form->dropDownList($model,'Genero_Empleados',Empleados::getGeneroEmpleados()); ?></td>
-        </tr>
-        <tr>
-          	<td><?php echo $form->labelEx($model,'Status_Empleados'); ?></td>
-            <td><?php echo $form->dropDownList($model,'Status_Empleados',Empleados::getStatusEmpleados()); ?></td>
+            <td><?php echo $form->labelEx($model,'Celular_Empleados'); ?></td>
+            <td><?php echo $form->textField($model,'Celular_Empleados',array('placeholder'=>'CELULAR','size'=>15,'maxlength'=>15)); ?></td>
         </tr>
         
       </tbody>
@@ -81,15 +82,15 @@
       <tbody>
         <tr>
           	<td><?php echo $form->labelEx($model,'Calle_Domicilio_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Calle_Domicilio_Empleados',array('placeholder'=>'CALLE DE DOMICILIO','size'=>45,'maxlength'=>45)); ?></td>
+            <td><?php echo $form->textField($model,'Calle_Domicilio_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'CALLE DE DOMICILIO','size'=>45,'maxlength'=>45)); ?></td>
          </tr>
          <tr>
           	<td><?php echo $form->labelEx($model,'Num_Domicilio_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Num_Domicilio_Empleados',array('placeholder'=>'NUMERO DE DOMICILIO','size'=>9,'maxlength'=>9)); ?></td>
+            <td><?php echo $form->textField($model,'Num_Domicilio_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'NUMERO DE DOMICILIO','size'=>9,'maxlength'=>9)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Colonia_Domicilio_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Colonia_Domicilio_Empleados',array('placeholder'=>'COLONIA DE DOMICILIO','size'=>45,'maxlength'=>45)); ?></td>
+            <td><?php echo $form->textField($model,'Colonia_Domicilio_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'COLONIA DE DOMICILIO','size'=>45,'maxlength'=>45)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Cod_Postal_Domicilio_Empleados'); ?></td>
@@ -97,11 +98,11 @@
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Ciudad_Domicilio_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Ciudad_Domicilio_Empleados',array('placeholder'=>'CIUDAD DE RESIDENCIA','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'Ciudad_Domicilio_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'CIUDAD DE RESIDENCIA','size'=>15,'maxlength'=>15)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Estado_Domicilio_Empleados'); ?></td>
-            <td><?php echo $form->textField($model,'Estado_Domicilio_Empleados',array('placeholder'=>'ESTADO DE RESIDENCIA','size'=>15,'maxlength'=>15)); ?></td>
+            <td><?php echo $form->textField($model,'Estado_Domicilio_Empleados',array('style'=>'text-transform:uppercase;','placeholder'=>'ESTADO DE RESIDENCIA','size'=>15,'maxlength'=>15)); ?></td>
         </tr>
         <tr>
           	<td><?php echo $form->labelEx($model,'Puestos_idPuestos_Empleados'); ?></td>
@@ -112,9 +113,10 @@
             <td><?php echo $form->dropDownList($model,'Obras_idObras_Empleados',CHtml::listData(Obras::model()->findAll(),'idObras','Nombre_Obras'),array('empty'=>'Selecciona Obra')); ?></td>
         </tr>
         <tr>
-          	<td><?php echo $form->labelEx($model,'Status_IMSS_Empleados'); ?></td>
-            <td><?php echo $form->dropDownList($model,'Status_IMSS_Empleados',Empleados::getStatusIMSSEmpleados()); ?></td>
+            <td><?php echo $form->labelEx($model,'Genero_Empleados'); ?></td>
+            <td><?php echo $form->dropDownList($model,'Genero_Empleados',Empleados::getGeneroEmpleados()); ?></td>
         </tr>
+        
        
       </tbody>
     </table>
@@ -134,15 +136,15 @@
         <tr>
           	<td scope="row"><?php echo $form->labelEx($model,'INFONAVITimg_Empleados'); ?> </td>      
 	        <td><?php echo $form->fileField($model,'INFONAVITimg_Empleados');?>            
-                    <?php echo !Yii::app()->user->isGuest?'5MB':'2MB'; ?></td>
+                    </td>
          </tr>
          <td><?php echo $form->labelEx($model,'INEimg_Empleados'); ?> </td>      
 	        <td><?php echo $form->fileField($model,'INEimg_Empleados');?>            
-                    <?php echo !Yii::app()->user->isGuest?'5MB':'2MB'; ?></td>
+                    </td>
          <tr>
          	<td><?php echo $form->labelEx($model,'IMSSimg_Empleados'); ?> </td>      
 	        <td><?php echo $form->fileField($model,'IMSSimg_Empleados');?>            
-                    <?php echo !Yii::app()->user->isGuest?'5MB':'2MB'; ?></td>
+                    </td>
          </tr>
       </tbody>
     </table>
@@ -160,12 +162,12 @@
         <tr>
           	<td><?php echo $form->labelEx($model,'CURPimg_Empleados'); ?> </td>      
 	        <td><?php echo $form->fileField($model,'CURPimg_Empleados');?>            
-                    <?php echo !Yii::app()->user->isGuest?'5MB':'2MB'; ?></td>
+                    </td>
          </tr>
          <tr>
          	<td><?php echo $form->labelEx($model,'ActaNacimineto_Empleados'); ?> </td>      
 	        <td><?php echo $form->fileField($model,'ActaNacimineto_Empleados');?>            
-                    <?php echo !Yii::app()->user->isGuest?'5MB':'2MB'; ?></td>
+                    </td>
          </tr>
          <tr>
          	<td><?php echo $form->labelEx($model,'ComprovanteDomicilio_Empleados'); ?> </td>      

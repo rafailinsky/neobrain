@@ -40,13 +40,14 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'idEmpleados',
+		
 		'RFCtxt_Empleados',
 		'IMSStxt_Empleados',
+		'Nombres_Empleados',
+		'Apellido_Paterno_Empleados',
+		/*
 		'CURPtxt_Empleados',
 		'NUM_INFONAVIT_Empleados',
-		'Nombres_Empleados',
-		/*
 		'Apellido_Paterno_Empleados',
 		'Apellido_Materno_Empleados',
 		'Genero_Empleados',

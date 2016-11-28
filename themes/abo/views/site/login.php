@@ -53,23 +53,19 @@ $this->breadcrumbs=array(
                      <thead></thead>
                      <tbody><center>
                          <tr aling="center">
-                             <td><?php echo $form->labelEx($model,'username'); ?></td>
+                             <td><?php echo $form->labelEx($model,'Usuario*'); ?></td>
                              <td><?php echo $form->textField($model,'username'); ?></td>
                          </tr> 
-                             <td><?php echo $form->labelEx($model,'password'); ?></th>
+                             <td><?php echo $form->labelEx($model,'Clave*'); ?></th>
                              <td><?php echo $form->passwordField($model,'password'); ?></td>
                          <tr>
                      </tbody>
                  </table>
              </center>
 
-             <center>
-             <?php echo $form->checkBox($model,'rememberMe'); ?> <?php echo $form->label($model,'rememberMe'); ?></center> 
-             <center>
-
-             <br>
+             
              <div class="row buttons">
-                 <?php echo CHtml::submitButton('Login',array('class'=>'btn btn btn-primary')); ?>
+                 <?php echo CHtml::submitButton('Acceder',array('class'=>'btn btn btn-primary')); ?>
              </div>
          <?php $this->endWidget(); ?>
          </div><!-- form -->

@@ -15,6 +15,130 @@ $gridDataProvider = new CArrayDataProvider(array(
 ?>
 
 <div class="row-fluid">
+
+
+<div class="span3 ">
+      <div class="stat-block">
+    <ul>
+    <li class="stat-count"><span>ABC</span><span>123</span></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="span3 ">
+      <div class="stat-block">
+    <ul>
+    <li class="stat-count"><span>ABC</span><span>123</span></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="span3 ">
+      <div class="stat-block">
+    <ul>
+    <li class="stat-count"><span>ABC</span><span>123</span></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="span3 ">
+      <div class="stat-block">
+    <ul>
+    <li class="stat-count"><span>ABC</span><span>123</span></li>
+    </ul>
+    </div>
+  </div>
+  </div>
+       <div class="span2">
+        <div class="summary">
+          <ul> 
+            <li>
+                <span class="summary-icon">
+                    <img src="<?php echo $baseUrl ;?>/img/group.png" width="36" height="36" alt="Active Members">
+                </span>
+                <span class="summary-number">654,321</span>
+                <span class="summary-title"> Active Members</span>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+   <div class="row-fluid">
+       <div class="span2">
+        <div class="summary">
+          <ul> 
+            <li>
+                <span class="summary-icon">
+                    <img src="<?php echo $baseUrl ;?>/img/folder_page.png" width="36" height="36" alt="Active Members">
+                </span>
+                <span class="summary-number">654,321</span>
+                <span class="summary-title"> Active Members</span>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+   
+       <div class="span2">
+        <div class="summary">
+          <ul> 
+            <li>
+                <span class="summary-icon">
+                    <img src="<?php echo $baseUrl ;?>/img/group.png" width="36" height="36" alt="Active Members">
+                </span>
+                <span class="summary-number">654,321</span>
+                <span class="summary-title"> Active Members</span>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    
+       <div class="span2">
+        <div class="summary">
+          <ul> 
+            <li>
+                <span class="summary-icon">
+                    <img src="<?php echo $baseUrl ;?>/img/group.png" width="36" height="36" alt="Active Members">
+                </span>
+                <span class="summary-number">654,321</span>
+                <span class="summary-title"> Active Members</span>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    
+       <div class="span2">
+        <div class="summary">
+          <ul> 
+            <li>
+                <span class="summary-icon">
+                    <img src="<?php echo $baseUrl ;?>/img/group.png" width="36" height="36" alt="Active Members">
+                </span>
+                <span class="summary-number">654,321</span>
+                <span class="summary-title"> Active Members</span>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="span2">
+        <div class="summary">
+          <ul> 
+            <li>
+                <span class="summary-icon">
+                    <img src="<?php echo $baseUrl ;?>/img/group.png" width="36" height="36" alt="Active Members">
+                </span>
+                <span class="summary-number">654,321</span>
+                <span class="summary-title"> Active Members</span>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+<?php /*
+<div class="row-fluid">
     
   <div class="span3 ">
       <div class="stat-block">
@@ -126,7 +250,8 @@ $gridDataProvider = new CArrayDataProvider(array(
   </div>
     
     
-    </div>
+    </div> 
+    */
  
    
     

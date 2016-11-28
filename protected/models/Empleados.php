@@ -30,21 +30,28 @@
  * @property string $Estado_Domicilio_Empleados
  * @property integer $Puestos_idPuestos_Empleados
  * @property integer $Obras_idObras_Empleados
+ * @property string $Telefono_Empleados
+ * @property string $Celular_Empleados
+ * @property string $Codigo_Empleados
+ * @property string $Correo_Empleados
  *
  * The followings are the available model relations:
+ * @property Asistencias[] $asistenciases
+ * @property Contratos[] $contratoses
  * @property Obras $obrasIdObrasEmpleados
  * @property Puestos $puestosIdPuestosEmpleados
- * @property Entradas[] $entradases
- * @property Salidas[] $salidases
+ * @property Traspasos[] $traspasoses
+ * @property Traspasos[] $traspasoses1
+ * @property Traspasos[] $traspasoses2
  */
 class Empleados extends CActiveRecord
 {
 
-	public static $generoempleados=array(''=>'','0'=>'Masculino','1'=>'Femenino','2'=>'X');
+	public static $generoempleados=array(''=>'Selecciona Genero','0'=>'Masculino','1'=>'Femenino');
 
-	public static $statusempleados=array(''=>'','0'=>'Inactivo','1'=>'Activo');
+	public static $statusempleados=array(''=>'Selecciona Status','0'=>'Inactivo','1'=>'Activo');
 
-	public static $statusimssempleados=array(''=>'','0'=>'NO Registrado','1'=>'SI Registrado');
+	public static $statusimssempleados=array(''=>'Selecciona Opcion','0'=>'NO Registrado','1'=>'SI Registrado');
 
 	/**
 	 * @return string the associated database table name
@@ -62,17 +69,26 @@ class Empleados extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('IMSStxt_Empleados, Nombres_Empleados, Apellido_Paterno_Empleados, Apellido_Materno_Empleados, Puestos_idPuestos_Empleados, Obras_idObras_Empleados', 'required'),
+			array('CURPimg_Empleados,INEimg_Empleados, ActaNacimineto_Empleados, ComprovanteDomicilio_Empleados, IMSSimg_Empleados, INFONAVITimg_Empleados,INFONAVITimg_Empleados,Calle_Domicilio_Empleados, Num_Domicilio_Empleados, Colonia_Domicilio_Empleados, Cod_Postal_Domicilio_Empleados, Ciudad_Domicilio_Empleados, Estado_Domicilio_Empleados,Correo_Empleados,Telefono_Empleados,CURPtxt_Empleados,RFCtxt_Empleados,IMSStxt_Empleados, Nombres_Empleados, Apellido_Paterno_Empleados, Apellido_Materno_Empleados, Puestos_idPuestos_Empleados', 'required'),
 			array('Puestos_idPuestos_Empleados, Obras_idObras_Empleados', 'numerical', 'integerOnly'=>true),
-			array('RFCtxt_Empleados, IMSStxt_Empleados, CURPtxt_Empleados, NUM_INFONAVIT_Empleados, Apellido_Paterno_Empleados, Apellido_Materno_Empleados, Ciudad_Domicilio_Empleados, Estado_Domicilio_Empleados', 'length', 'max'=>15),
-			array('Nombres_Empleados', 'length', 'max'=>25),
-			array('Genero_Empleados, Status_Empleados, Status_IMSS_Empleados, INFONAVITimg_Empleados, Calle_Domicilio_Empleados, Colonia_Domicilio_Empleados', 'length', 'max'=>45),
+			array('RFCtxt_Empleados, IMSStxt_Empleados, CURPtxt_Empleados, NUM_INFONAVIT_Empleados, Apellido_Paterno_Empleados, Apellido_Materno_Empleados, Ciudad_Domicilio_Empleados, Estado_Domicilio_Empleados, Telefono_Empleados, Celular_Empleados', 'length', 'max'=>15),
+			array('Nombres_Empleados, Codigo_Empleados', 'length', 'max'=>25),
+			array('Genero_Empleados, Status_Empleados, Status_IMSS_Empleados, INFONAVITimg_Empleados, Calle_Domicilio_Empleados, Colonia_Domicilio_Empleados, Correo_Empleados', 'length', 'max'=>45),
 			array('Num_Domicilio_Empleados', 'length', 'max'=>9),
 			array('Cod_Postal_Domicilio_Empleados', 'length', 'max'=>7),
 			array('Fotografia_Empleados, CURPimg_Empleados, INEimg_Empleados, ActaNacimineto_Empleados, ComprovanteDomicilio_Empleados, IMSSimg_Empleados', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('idEmpleados, RFCtxt_Empleados, IMSStxt_Empleados, CURPtxt_Empleados, NUM_INFONAVIT_Empleados, Nombres_Empleados, Apellido_Paterno_Empleados, Apellido_Materno_Empleados, Genero_Empleados, Status_Empleados, Status_IMSS_Empleados, Fotografia_Empleados, CURPimg_Empleados, INEimg_Empleados, ActaNacimineto_Empleados, ComprovanteDomicilio_Empleados, IMSSimg_Empleados, INFONAVITimg_Empleados, Calle_Domicilio_Empleados, Num_Domicilio_Empleados, Colonia_Domicilio_Empleados, Cod_Postal_Domicilio_Empleados, Ciudad_Domicilio_Empleados, Estado_Domicilio_Empleados, Puestos_idPuestos_Empleados, Obras_idObras_Empleados', 'safe', 'on'=>'search'),
+			array('idEmpleados, RFCtxt_Empleados, IMSStxt_Empleados, CURPtxt_Empleados, NUM_INFONAVIT_Empleados, Nombres_Empleados, Apellido_Paterno_Empleados, Apellido_Materno_Empleados, Genero_Empleados, Status_Empleados, Status_IMSS_Empleados, Fotografia_Empleados, CURPimg_Empleados, INEimg_Empleados, ActaNacimineto_Empleados, ComprovanteDomicilio_Empleados, IMSSimg_Empleados, INFONAVITimg_Empleados, Calle_Domicilio_Empleados, Num_Domicilio_Empleados, Colonia_Domicilio_Empleados, Cod_Postal_Domicilio_Empleados, Ciudad_Domicilio_Empleados, Estado_Domicilio_Empleados, Puestos_idPuestos_Empleados, Obras_idObras_Empleados, Telefono_Empleados, Celular_Empleados, Codigo_Empleados, Correo_Empleados', 'safe', 'on'=>'search'),
+			array('Correo_Empleados', 'email'),
+			array('Cod_Postal_Domicilio_Empleados,Telefono_Empleados, Celular_Empleados', 'numerical'),
+			array('Cod_Postal_Domicilio_Empleados', 'length', 'is'=>5),
+			array('ComprovanteDomicilio_Empleados, IMSSimg_Empleados, INFONAVITimg_Empleados,CURPimg_Empleados, INEimg_Empleados', 'file', 
+ 'types'=>'pdf, doc, docx, jpg, jpeg, png, gif',
+ 'maxSize'=>1024*1024*3,
+ 'tooLarge'=>'El archivo no puede exceder los 3MB.',
+ 'allowEmpty'=>false),
+
 		);
 	}
 
@@ -84,10 +100,13 @@ class Empleados extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'asistenciases' => array(self::HAS_MANY, 'Asistencias', 'Empleados_idEmpleados_Asistencias'),
+			'contratoses' => array(self::HAS_MANY, 'Contratos', 'Empleados_idEmpleados'),
 			'obrasIdObrasEmpleados' => array(self::BELONGS_TO, 'Obras', 'Obras_idObras_Empleados'),
 			'puestosIdPuestosEmpleados' => array(self::BELONGS_TO, 'Puestos', 'Puestos_idPuestos_Empleados'),
-			'entradases' => array(self::HAS_MANY, 'Entradas', 'Empleados_idEmpleados_Entradas'),
-			'salidases' => array(self::HAS_MANY, 'Salidas', 'Empleados_idEmpleados_Salidas'),
+			'traspasoses' => array(self::HAS_MANY, 'Traspasos', 'Empleados_idEmpleados_Origen'),
+			'traspasoses1' => array(self::HAS_MANY, 'Traspasos', 'Empleados_idEmpleados_Destino'),
+			'traspasoses2' => array(self::HAS_MANY, 'Traspasos', 'Empleados_idEmpleados_Transporta'),
 		);
 	}
 
@@ -112,8 +131,6 @@ class Empleados extends CActiveRecord
 		return self::$statusimssempleados;
 	}
 
-	
-
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
@@ -122,35 +139,36 @@ class Empleados extends CActiveRecord
 		return array(
 			'idEmpleados' => 'ID',
 			'RFCtxt_Empleados' => 'RFC',
-			'IMSStxt_Empleados' => 'IMSS',
+			'IMSStxt_Empleados' => 'NUM IMSS',
 			'CURPtxt_Empleados' => 'CURP',
-			'NUM_INFONAVIT_Empleados' => 'N°INF',
-			'Nombres_Empleados' => 'Nombre',
-			'Apellido_Paterno_Empleados' => 'Ap. Paterno',
-			'Apellido_Materno_Empleados' => 'Ap. Materno',
-			'Genero_Empleados' => 'Genero',
-			'Status_Empleados' => 'Status',
+			'NUM_INFONAVIT_Empleados' => 'NUM INFONAVIT',
+			'Nombres_Empleados' => 'Nombre(s)',
+			'Apellido_Paterno_Empleados' => 'Apellido Paterno ',
+			'Apellido_Materno_Empleados' => 'Apellido Materno ',
+			'Genero_Empleados' => 'Genero ',
+			'Status_Empleados' => 'Status Empleado',
 			'Status_IMSS_Empleados' => 'Status IMSS',
-			
-			'Fotografia_Empleados' => 'Foto',
+			'Fotografia_Empleados' => 'Fotografia',
 			'CURPimg_Empleados' => 'CURP',
 			'INEimg_Empleados' => 'INE',
-			'ActaNacimineto_Empleados' => 'Acta N',
-			'ComprovanteDomicilio_Empleados' => 'Com Dom',
+			'ActaNacimineto_Empleados' => 'Acta Nacimineto',
+			'ComprovanteDomicilio_Empleados' => 'Com Dom ',
 			'IMSSimg_Empleados' => 'IMSS',
-			'INFONAVITimg_Empleados' => 'INF',
-			'Calle_Domicilio_Empleados' => 'Calle',
-			'Num_Domicilio_Empleados' => 'Num',
-			'Colonia_Domicilio_Empleados' => 'Col',
-			'Cod_Postal_Domicilio_Empleados' => 'CP',
-			'Ciudad_Domicilio_Empleados' => 'Ciudad',
-			'Estado_Domicilio_Empleados' => 'Estado',
+			'INFONAVITimg_Empleados' => 'INFONAVIT',
+			'Calle_Domicilio_Empleados' => 'Calle ',
+			'Num_Domicilio_Empleados' => 'Num ',
+			'Colonia_Domicilio_Empleados' => 'Colonia ',
+			'Cod_Postal_Domicilio_Empleados' => 'Cod Postal ',
+			'Ciudad_Domicilio_Empleados' => 'Ciudad ',
+			'Estado_Domicilio_Empleados' => 'Estado ',
 			'Puestos_idPuestos_Empleados' => 'Puesto',
 			'Obras_idObras_Empleados' => 'Obra',
+			'Telefono_Empleados' => 'Telefono ',
+			'Celular_Empleados' => 'Celular',
+			'Codigo_Empleados' => 'Codigo',
+			'Correo_Empleados' => 'Correo',
 		);
 	}
-
-	
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
@@ -196,6 +214,10 @@ class Empleados extends CActiveRecord
 		$criteria->compare('Estado_Domicilio_Empleados',$this->Estado_Domicilio_Empleados,true);
 		$criteria->compare('Puestos_idPuestos_Empleados',$this->Puestos_idPuestos_Empleados);
 		$criteria->compare('Obras_idObras_Empleados',$this->Obras_idObras_Empleados);
+		$criteria->compare('Telefono_Empleados',$this->Telefono_Empleados,true);
+		$criteria->compare('Celular_Empleados',$this->Celular_Empleados,true);
+		$criteria->compare('Codigo_Empleados',$this->Codigo_Empleados,true);
+		$criteria->compare('Correo_Empleados',$this->Correo_Empleados,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

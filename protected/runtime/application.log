@@ -28343,3 +28343,2015 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/NEOBRAIN/empresas/index.rgg?Empresas_page=1&pageSize=5
 ---
+2016/11/26 01:57:14 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:45)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (45)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 01:57:38 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (35)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:08 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:18 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:20 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:20 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:21 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:23 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:25 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:27 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:29 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html?Empleados_page=1&pageSize=10
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:14:38 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (40)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:17:34 [error] [php] Undefined variable: model (C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): EmpleadosController->renderFile()
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): EmpleadosController->renderPartial()
+#2 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): EmpleadosController->render()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): EmpleadosController->runAction()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): EmpleadosController->filterAccessControl()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): EmpleadosController->runActionWithFilters()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): EmpleadosController->run()
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\NEOBRAIN\index.php(13): CWebApplication->run()
+REQUEST_URI=/NEOBRAIN/empleados/index.html
+in C:\xampp\htdocs\NEOBRAIN\protected\views\empleados\index.php (39)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 05:40:51 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `usuarios` `t` WHERE LOWER(username)=? LIMIT 1.
+in C:\xampp\htdocs\NEOBRAIN\protected\components\UserIdentity.php (26)
+in C:\xampp\htdocs\NEOBRAIN\protected\models\LoginForm.php (51)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\SiteController.php (108)
+2016/11/26 05:40:51 [error] [exception.CDbException] CDbException: CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'. The SQL statement executed was: SELECT * FROM `usuarios` `t` WHERE LOWER(username)=? LIMIT 1 in C:\xampp\htdocs\NEOBRAIN\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\NEOBRAIN\protected\components\UserIdentity.php(26): CActiveRecord->find('LOWER(username)...', Array)
+#4 C:\xampp\htdocs\NEOBRAIN\protected\models\LoginForm.php(51): UserIdentity->authenticate()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#8 C:\xampp\htdocs\NEOBRAIN\protected\controllers\SiteController.php(108): CModel->validate()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/NEOBRAIN/site/login.html
+HTTP_REFERER=http://localhost/NEOBRAIN/site/login.html
+---
+2016/11/26 05:55:05 [error] [exception.CException] CException: La propiedad "CMenu"."type" no se encuentra definida. in C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('type', 'list')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(EmpleadosController), 'CMenu', Array)
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CMe...', Array)
+#3 C:\xampp\htdocs\NEOBRAIN\themes\abo\views\layouts\column2.php(16): CBaseController->widget('zii.widgets.CMe...', Array)
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(127): CController->render('index', Array)
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionIndex()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#18 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('empleados/index')
+#19 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/NEOBRAIN/empleados/index.html
+HTTP_REFERER=http://localhost/NEOBRAIN/
+---
+2016/11/26 06:37:56 [error] [exception.CException] CException: La propiedad "Empleados"."Empleadoscol" no se encuentra definida. in C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Empleadoscol')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\validators\CStringValidator.php(79): CActiveRecord->__get('Empleadoscol')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\validators\CValidator.php(213): CStringValidator->validateAttribute(Object(Empleados), 'Empleadoscol')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CModel.php(159): CValidator->validate(Object(Empleados), Array)
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(73): CActiveRecord->save()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionCreate()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('empleados/creat...')
+#17 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/NEOBRAIN/empleados/create.html
+HTTP_REFERER=http://localhost/NEOBRAIN/empleados/create.html
+---
+2016/11/26 06:49:54 [warning] [application] Error al establecer unsafe al atributo "INFONAVITimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:49:54 [warning] [application] Error al establecer unsafe al atributo "INEimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:49:54 [warning] [application] Error al establecer unsafe al atributo "IMSSimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:49:54 [warning] [application] Error al establecer unsafe al atributo "CURPimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:49:54 [warning] [application] Error al establecer unsafe al atributo "ComprovanteDomicilio_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:49:54 [error] [exception.CException] CException: La propiedad "Empleados"."codigo" no se encuentra definida. in C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('codigo')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\validators\CStringValidator.php(79): CActiveRecord->__get('codigo')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\validators\CValidator.php(213): CStringValidator->validateAttribute(Object(Empleados), 'codigo')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CModel.php(159): CValidator->validate(Object(Empleados), Array)
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#5 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php(73): CActiveRecord->save()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EmpleadosController->actionCreate()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('empleados/creat...')
+#17 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/NEOBRAIN/empleados/create.html
+HTTP_REFERER=http://localhost/NEOBRAIN/empleados/create.html
+---
+2016/11/26 06:51:13 [warning] [application] Error al establecer unsafe al atributo "INFONAVITimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:13 [warning] [application] Error al establecer unsafe al atributo "INEimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:13 [warning] [application] Error al establecer unsafe al atributo "IMSSimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:13 [warning] [application] Error al establecer unsafe al atributo "CURPimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:13 [warning] [application] Error al establecer unsafe al atributo "ComprovanteDomicilio_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:35 [warning] [application] Error al establecer unsafe al atributo "INFONAVITimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:35 [warning] [application] Error al establecer unsafe al atributo "INEimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:35 [warning] [application] Error al establecer unsafe al atributo "IMSSimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:35 [warning] [application] Error al establecer unsafe al atributo "CURPimg_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 06:51:35 [warning] [application] Error al establecer unsafe al atributo "ComprovanteDomicilio_Empleados" de "Empleados".
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EmpleadosController.php (72)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 07:01:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'neo.entradas' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `Entradas`.
+in C:\xampp\htdocs\NEOBRAIN\protected\views\entradas\index.php (19)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\EntradasController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 07:01:02 [error] [exception.CDbException] CDbException: La tabla "Entradas" definida en la clase active record "Entradas" no se ha podido encontrar en la base de datos. in C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Entradas))
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\NEOBRAIN\protected\views\entradas\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\NEOBRAIN\protected\controllers\EntradasController.php(127): CController->render('index', Array)
+#17 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): EntradasController->actionIndex()
+#18 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('entradas/index')
+#28 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/NEOBRAIN/entradas/index.html
+HTTP_REFERER=http://localhost/NEOBRAIN/empleados/index.html
+---
+2016/11/26 07:01:48 [error] [exception.CHttpException.403] CHttpException: Usted no se encuentra autorizado a realizar esta acción. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('empleados/admin')
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/NEOBRAIN/empleados/admin.html
+HTTP_REFERER=http://localhost/NEOBRAIN/empleados/index.html
+---
+2016/11/26 07:03:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'neo.salidas' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `Salidas`.
+in C:\xampp\htdocs\NEOBRAIN\protected\views\salidas\index.php (19)
+in C:\xampp\htdocs\NEOBRAIN\protected\controllers\SalidasController.php (127)
+in C:\xampp\htdocs\NEOBRAIN\index.php (13)
+2016/11/26 07:03:28 [error] [exception.CDbException] CDbException: La tabla "Salidas" definida en la clase active record "Salidas" no se ha podido encontrar en la base de datos. in C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Salidas))
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\db\ar\CActiveRecord.php(1601): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\zii\widgets\CListView.php(211): CBaseListView->init()
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(147): CListView->init()
+#10 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#11 C:\xampp\htdocs\NEOBRAIN\protected\views\salidas\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#12 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\NEOBRAIN\protected\controllers\SalidasController.php(127): CController->render('index', Array)
+#17 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\actions\CInlineAction.php(49): SalidasController->actionIndex()
+#18 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#27 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('salidas/index')
+#28 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/NEOBRAIN/salidas/index.html
+HTTP_REFERER=http://localhost/NEOBRAIN/empleados/admin.html
+---
+2016/11/26 07:03:33 [error] [exception.CHttpException.403] CHttpException: Usted no se encuentra autorizado a realizar esta acción. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('empleados/admin')
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/NEOBRAIN/empleados/admin.html
+HTTP_REFERER=http://localhost/NEOBRAIN/empleados/index.html
+---
+2016/11/26 07:04:31 [error] [exception.CHttpException.403] CHttpException: Usted no se encuentra autorizado a realizar esta acción. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('puestos/admin')
+#9 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/NEOBRAIN/puestos/admin.html
+HTTP_REFERER=http://localhost/NEOBRAIN/puestos/index.html
+---
+2016/11/26 07:33:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/header-1.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/layout.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/essentials.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/extralayers.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/settings.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:06 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/color_scheme/yellow.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/scripts.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/jquery/jquery-2.1.4.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/styleswitcher/styleswitcher.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/view/demo.revolution_slider.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/yellow-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/worker-min.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/logo_dark.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/slider_2-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/4-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/c3-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/5-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/c1-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w1-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/c2-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w2-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w3-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w7-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w4-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w6-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w5-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w8-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/settings.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/extralayers.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/essentials.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/layout.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/header-1.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/color_scheme/yellow.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/30-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/26-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/12-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/11-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/24-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/17-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/18-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/worker-min.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/logo_dark.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:07 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/yellow-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/37-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/34-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/laptop.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/23-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/2.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/3.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/1200x800/34-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/1.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/4.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/5.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/6.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/7.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/8.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/jquery/jquery-2.1.4.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/scripts.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/styleswitcher/styleswitcher.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:33:08 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/view/demo.revolution_slider.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "neobrain" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('neobrain')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('neobrain')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/neobrain/a...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/neobrain/assets/plugins/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/layout.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/extralayers.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/essentials.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/settings.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/header-1.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/jquery/jquery-2.1.4.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/color_scheme/yellow.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/scripts.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/styleswitcher/styleswitcher.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/view/demo.revolution_slider.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/logo_dark.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/5-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/4-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/yellow-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:40 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/worker-min.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/slider_2-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/c1-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/c3-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w2-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/c2-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w3-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w1-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "neobrain" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('neobrain')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('neobrain')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/neobrain/a...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/neobrain/assets/plugins/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/extralayers.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/css/settings.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w4-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w6-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w5-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/essentials.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/color_scheme/yellow.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/header-1.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/css...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/css/layout.css
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/1200x800/34-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/11-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w7-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/people/300x300/12-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/jquery/jquery-2.1.4.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/thematics/construction/w8-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/24-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/17-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/30-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/26-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/37-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/23-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/18-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/451x300/34-min.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/laptop.png
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/1.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/2.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/4.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/scripts.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/3.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/5.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/6.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/7.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/styleswitcher/styleswitcher.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/ima...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/images/demo/brands/8.jpg
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/plu...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 07:35:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "assets" solicitada. in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CController.php(270): CController->missingAction('assets')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(282): CController->run('assets')
+#2 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/assets/js/...')
+#3 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/NEOBRAIN/site/assets/js/view/demo.revolution_slider.js
+HTTP_REFERER=http://localhost/NEOBRAIN/site/index.html
+---
+2016/11/26 18:42:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "themes/abo/img/folde_page.png" in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/abo/img/...')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/NEOBRAIN/themes/abo/img/folde_page.png
+HTTP_REFERER=http://localhost/NEOBRAIN/
+---
+2016/11/26 18:42:03 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "themes/abo/img/folde_page.png" in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/abo/img/...')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/NEOBRAIN/themes/abo/img/folde_page.png
+HTTP_REFERER=http://localhost/NEOBRAIN/
+---
+2016/11/26 18:54:20 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "asistencias/index" in C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\NEOBRAIN\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('asistencias/ind...')
+#1 C:\xampp\htdocs\NEOBRAIN\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\NEOBRAIN\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/NEOBRAIN/asistencias/index.html
+HTTP_REFERER=http://localhost/NEOBRAIN/
+---
